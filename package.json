@@ -1,0 +1,38 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "An example Cypress e2e test project",
+  "keywords": [
+    "cypress",
+    "e2e",
+    "ui",
+    "test",
+    "automation"
+  ],
+  "standard": {
+    "globals": [
+      "cy",
+      "beforeAll",
+      "afterAll",
+      "describe",
+      "it",
+      "beforeEach",
+      "afterEach"
+    ]
+  },
+  "scripts": {
+    "cy": "cypress",
+    "open": "npm run cy open",
+    "test": "npm run cy run -- -q --headed",
+    "headless": "npm run cy run -- -q",
+    "home": "npm run cy run -- --spec specs/homePageSpec.js",
+    "pretty": "standard --fix",
+    "ci": "npm run cy run -- -q"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.14.0",
+    "standard": "^16.0.4"
+  }
+}
