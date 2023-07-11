@@ -10,7 +10,7 @@ describe('Amazon Web Automation Using Cypress', function () {
         cy.get('#productTitle').should('be.visible')
         cy.get('#add-to-cart-button').click()
         cy.wait(5000)
-        cy.get('#attach-sidesheet-view-cart-button').click()
+        cy.get('[class="a-form-label"]').should('be.visible')
         cy.wait(50)
     })
     Cypress.on('uncaught:exception', (err, runnable) => {

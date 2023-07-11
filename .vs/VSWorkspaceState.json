@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\cypress",
+    "\\cypress\\Integration",
+    "\\cypress\\Integration\\Pages"
   ],
-  "SelectedNode": "\\C:\\Users\\Bharadwaj.Murki\\source\\repos\\CypressAutomation",
+  "SelectedNode": "\\cypress\\Integration\\Pages\\homePage.js",
   "PreviewInSolutionExplorer": false
 }
