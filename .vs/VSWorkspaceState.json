@@ -3,8 +3,7 @@
     "",
     "\\cypress",
     "\\cypress\\Integration",
-    "\\cypress\\Integration\\Pages"
+    "\\cypress\\Integration\\Specs"
   ],
-  "SelectedNode": "\\cypress\\Integration\\Pages\\homePage.js",
   "PreviewInSolutionExplorer": false
 }
